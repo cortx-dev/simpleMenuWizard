@@ -1,0 +1,27 @@
+/* https://raymii.org/s/blog/Firefox-89-proton-ui-tab-styling.html */
+
+.tab-background {
+    background: #eeeeee;
+    border-radius: 0 !important;
+    margin-bottom: 0px !important;
+/*    box-shadow: 0 0 1px 1px rgba(0,0,0,0.1) !important;*/
+    border: 1px solid rgba(0,0,0,.5) !important;
+/*    border-bottom-width: 1px !important; */
+}
+
+.tabbrowser-tab[selected] .tab-background {
+    background: #ADC0CC !important;
+}
+
+.tabbrowser-tab[selected] .tab-label {
+    color: black !important;
+/*    font-weight: bold !important;*/
+}
+
+#TabsToolbar {
+    border-bottom: 0px solid #000000 !important; 
+}
+
+.tabbrowser-tab:hover .tab-background:not([selected]) {
+    background: #ADC0CC !important;
+}

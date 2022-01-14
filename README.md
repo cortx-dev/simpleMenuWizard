@@ -1,5 +1,5 @@
 # simpleMenuWizard
-Hide default context menu items in Firefox Proton (89+) release versions
+Hide default context menu items in Firefox 57 and later (latest FF release version)
 
 ---
 
@@ -12,13 +12,13 @@ To **remove entries from the context menu** you need to
 
 2. [Download this project](https://github.com/stonecrusher/simpleMenuWizard/archive/master.zip) and unzip it.
 
-3. Move `userChrome.css` and `simpleMenuWizard` into `[...]\profile folder\chrome\` directory.  
+3. Move `userChrome.css` and `simpleMenuWizard` into *[...]\\**profile.folder**\chrome\\* directory.  
    If `chrome` folder doesn't exist, create it.  
    If `userChrome.css` already exists, do *not* overwrite and proceed [here](https://github.com/stonecrusher/simpleMenuWizard#using-simplemenuwizard-together-with-other-custom-modifications).
 
 4. Open `userChrome.css` with a texteditor for a general overview and some options.
 
-5. Open the `simpleMenuWizard` directory and edit each .css file to customize them to your needs.  
+5. Open the `simpleMenuWizard` directory and edit each .css file (except beginning with `opt_`) to customize them to your needs.  
   **Remove menu item**: Remove `/*` at the beginning of the line.  
   **Leave menu item**: Add `/*` to the beginning of the line (by default every option is deactivated).
 
@@ -39,6 +39,7 @@ To **remove entries from the context menu** you need to
     * `tab-context.css` when right-clicking on a tab
     * `toolbar-context.css` when right-clicking on toolbar or tabbar
     * `urlbar-context.css` when right-clicking on the addressbar
+    * `urlbar-pageaction.css` when **left**-clicking the three dots in the addressbar
 
 6. Load `about:config` into addressbar. Search for `toolkit.legacyUserProfileCustomizations.stylesheets` and make sure the value is `true`.
 
@@ -46,8 +47,7 @@ To **remove entries from the context menu** you need to
 
 **Important notes:**
  * All *options and items are disabled by default*, so if you don't edit the files, nothing will happen.
- * If you're running macOS and Firefox 89+, make sure you set `widget.macos.native-context-menus` to `false` otherwise it won't work.
- * Items that appear in different contexts with the same ID will disappear in all those contexts when *activated only once*. This is because many menus internally share the same very big context menu and are separated here for convenience.  
+ * Items that appear in different contexts with the same ID will disappear in all those contexts when *activated only once*. This is because many menus internally share the same very big context menu and are separated here for more convenience.  
    For specific problems please [open an issue](https://github.com/stonecrusher/simpleMenuWizard/issues), there may be workarounds.
 
 ## Hide Pocket / Sync / Screenshots
@@ -71,7 +71,7 @@ You can now edit `simpleMenuWizard.css` for a general overview and some options 
 ## Uninstall simpleMenuWizard
 
 Delete all the files and folders that came with this project.  
-So if you don't use other modifications, you can simply delete the whole `[...]\profile folder\chrome\` directory.  
+So if you don't use other modifications, you can simply delete the whole *[...]\\**profile.folder**\chrome\\* directory.  
 Restart your browser.
 
 ## Contribute

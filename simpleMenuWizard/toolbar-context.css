@@ -25,7 +25,7 @@
  #toolbar-context-menu #toolbarItemsMenuSeparator,                     /******* Seperator ********/
  #toolbar-context-menu #toggle_toolbar-menubar,                        /* Menu Bar               */
  #toolbar-context-menu #toggle_PersonalToolbar,                        /* Bookmarks Toolbar      */
-/* #toolbar-context-menu #toggle_status-dummybar,		/* Status Bar */
+ #toolbar-context-menu #toggle_status-dummybar,		/* Status Bar */
  #toolbar-context-menu #toggle_status-dummybar + menuseparator,	 /******* Seperator ********/
 /* #toolbar-context-menu .viewCustomizeToolbar,                          /* Customize Toolbar…     */
 

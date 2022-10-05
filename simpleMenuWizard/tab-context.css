@@ -20,8 +20,8 @@
  #tabContextMenu #context_unpinSelectedTabs,                /* Unpin Tabs              */
  #tabContextMenu #context_duplicateTab,                     /* Duplicate Tab           */
  #tabContextMenu #context_duplicateTabs,                    /* Duplicate Tabs          */
-/* #tabContextMenu #context_copyTabUrl		/* copy Tab Url		*/
-/* #tabContextMenu #context_copyAllTabUrls 		/* copy all Tab Urls	*/
+ #tabContextMenu #context_copyTabUrl,		/* copy Tab Url		*/
+/* #tabContextMenu #context_copyAllTabUrls, 		/* copy all Tab Urls	*/
  #tabContextMenu #context_copyAllTabUrls + menuseparator,  		/******** Separator ********/
  #tabContextMenu #context_duplicateTabs    /* duplicate Tabs */
  #tabContextMenu #context_bookmarkSelectedTabs,             /* Bookmark Tabs…          */
@@ -31,7 +31,7 @@
  #tabContextMenu #context_moveToEnd,                            /* Move to End             */
  #tabContextMenu #context_openTabInWindow,                      /* Move to New Window      */
  #tabContextMenu #context_sendTabToDevice,                  /* Send Tab to Device      */
- #tabContextMenu #context_shareTabURL,                       /* Share tab URL via 3rd party app */
+ #tabContextMenu .share-tab-url-item,                       /* Share tab URL via 3rd party app */
  #tabContextMenu #context_reopenInContainer,                /* Reopen in Container     */
  #tabContextMenu #context_dummy,                                /* Send Tab to Device Submenu not yet supported */
  #tabContextMenu #context_selectAllTabs,                    /* Select All Tabs         */

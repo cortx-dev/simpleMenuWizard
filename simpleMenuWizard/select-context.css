@@ -15,6 +15,7 @@
  #context-take-screenshot,              /* Take Screenshot                  */
  #context-sep-screenshots,              /************ Separator *************/
  #context-searchselect,                 /* Search [Google] for "[selected]" */
+ #context-searchselect-private,		/* Search with Startpage in a Private Window */
  #frame-sep,                            /************ Separator *************/
 /* #context-viewpartialsource-selection,  /* View Selection Source            */
  #context-inspect-a11y,                 /* Inspect Accessibility Properties */

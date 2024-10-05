@@ -16,7 +16,7 @@
 /* #urlbar menuitem[anonid="paste-and-go"],             /* Paste and Go  */
 /* #urlbar menuitem[cmd="cmd_delete"],                  /* Delete        */
 /* #urlbar menuitem[cmd="cmd_selectAll"],               /* Select All    */
-/* menuseparator.menuseparator-add-engine               /*** Separator ***/
-
+ menuseparator.menuseparator-add-engine               /*** Separator ***/
+ menuitem.menuitem-iconic context-menu-add-engine 	/* Add search engine */
 #leave_this_dummy_here
     { display:none !important; }

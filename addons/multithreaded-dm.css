@@ -8,3 +8,8 @@ display: none;
 #multithreaded-download-manager_qw_linux-2g64_local-menuitem-_link-context-menu .menu-iconic-left::after{
     content: "Multithread download";
 }
+
+#multithreaded-download-manager_qw_linux-2g64_local-menuitem-_link-context-menu {
+display: none;
+}
+

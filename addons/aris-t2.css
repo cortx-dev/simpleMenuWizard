@@ -210,7 +210,7 @@
 #main-window  {
   --tab-min-height: unset !important;
   --tabs-lines: 3;
-  --tab_min_width_mlt: 100px;
+  --tab_min_width_mlt: 10px;
   --tab_max_width_mlt: 150px;
   --tab-min-height_mlt: 26px;
 }

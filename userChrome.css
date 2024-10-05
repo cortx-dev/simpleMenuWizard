@@ -17,7 +17,9 @@
  @import url("./addons/aris-t2.css");  
 /**********************************************/
 
-
+/* Hide unified extension button from button bar ************/
+@import url("./addons/unified-ext-button.css");
+/**********************************************/
 
 
 

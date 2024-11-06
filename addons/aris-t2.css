@@ -75,11 +75,6 @@
 
 
 /* Megabar: disable breakout / expanding onto toolbar *********************************************/
-#urlbar[breakout][breakout-extend] {
-  top: calc((var(--urlbar-toolbar-height) - var(--urlbar-height)) / 2) !important;
-  left: 0px !important;
-  width: calc(100% - 0px) !important;
-}
 
 #urlbar[breakout][breakout-extend] > #urlbar-background {
   /*box-shadow: unset !important;*/ /* box-shadow should stay, if browser.proton.urlbar.enabled is true */

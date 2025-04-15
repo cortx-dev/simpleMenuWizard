@@ -1,0 +1,6 @@
+/*FoxyProxy context menu*/
+
+#contentAreaContextMenu [label="FoxyProxy"]{
+display: none;
+}
+

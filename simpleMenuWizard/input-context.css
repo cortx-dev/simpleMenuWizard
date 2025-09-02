@@ -40,5 +40,12 @@
  #inspect-separator,                     /************ Separator *************/
  #context-inspect,                       /* Inspect (Q)                      */
 
+
+/*** remove icons ***/
+.menu-icon {
+    display: none !important;
+}
+/********************/
+
 #leave_this_dummy_here
     { display:none !important; }

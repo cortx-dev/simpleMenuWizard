@@ -8,6 +8,11 @@
  @import url("./addons/multithreaded-dm.css");     
 /******************************************/
 
+/******* Hide FoxyProxy context menu **********/
+ @import url("./addons/foxyproxy.css");     
+/******************************************/
+
+
 /* https://raymii.org/s/blog/Firefox-89-proton-ui-tab-styling.html */
  @import url("./addons/raymii.css");  
 /***********************************************/
